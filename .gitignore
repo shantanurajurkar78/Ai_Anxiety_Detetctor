@@ -76,7 +76,3 @@ data/temp/
 model/temp/
 .cache/
 # trained model artifact
-model/anxiety_model.pt
-
-*.pt
-model/
