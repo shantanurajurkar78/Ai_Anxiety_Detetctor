@@ -1,0 +1,82 @@
+# Virtual Environment# Virtual Environment
+temp/.tmp/*.temp*.tmp# Temporary files# data/# Data (optional - uncomment if dataset is large)# model/anxiety_model_meta.json# model/anxiety_model.pt# Model training artifacts (optional - uncomment if you want)backend/predictions.logpredictions.log*.loglogs/# Logs*.logThumbs.db.DS_Store# OS*.sublime-workspace*.sublime-project.settings/.pydevproject.project*~*.swo*.swp.idea/.vscode/# IDEvenv.bak/env.bak/.venv.env# Environments.python-version# pyenvipython_config.pyprofile_default/# IPython.ipynb_checkpoints# Jupyter Notebook.pytest_cache/.hypothesis/*.py,cover*.covercoverage.xmlnosetests.xml.cache.coverage.*.coverage.nox/.tox/htmlcov/# Unit test / coverage reports*.spec*.manifest# PyInstallerMANIFEST*.egg.installed.cfg*.egg-info/share/python-wheels/pip-wheel-metadata/wheels/var/sdist/parts/lib64/lib/.eggs/eggs/downloads/dist/develop-eggs/build/.Python# Distribution / packaging*.so*$py.class*.py[cod]__pycache__/# Python Cacheenv/ENV/venv/.venv/.venv/
+venv/
+env/
+ENV/
+*.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.hypothesis/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+backend/predictions.log
+
+# Streamlit
+.streamlit/
+*.streamlit.yml
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Project-specific
+data/temp/
+model/temp/
+.cache/
+# trained model artifact
+model/anxiety_model.pt
+
+*.pt
+model/
